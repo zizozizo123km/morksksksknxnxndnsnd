@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "name": "netflix-clone-app",
+  "build": {
+    "env": {
+      "VITE_APP_TITLE": "تطبيق نتفلكس"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
